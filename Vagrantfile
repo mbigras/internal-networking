@@ -14,6 +14,8 @@ Vagrant.configure("2") do |config|
         pre-down route del -net 192.168.0.0 netmask 255.255.0.0 gw 192.168.1.1 dev eth1
       EOF
       ifdown eth1 && ifup eth1
+
+      echo '192.168.2.2 server' >> /etc/hosts
     SHELL
   end
 
