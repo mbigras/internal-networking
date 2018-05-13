@@ -2,6 +2,8 @@
 
 > Practice setting up a virtual private network
 
+![](internal-networking.png)
+
 ## Links
 
 * https://www.vagrantup.com/docs/virtualbox/networking.html
